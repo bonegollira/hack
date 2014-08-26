@@ -1,0 +1,9 @@
+{
+  "name": "kamo.js",
+  "version": "0.0.0",
+  "description": "practice kamo.js to study FRP.",
+  "dependencies": {
+//     "r7kamaura/kamo.js": "*",
+    "jquery": "*"
+  }
+}

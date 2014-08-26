@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="">
+<meta property="og:image" content="">
+<meta property="og:description" content="">
+<link rel="stylesheet" type="text/css" href="/css/all.css">
+<script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="http://r7kamura.github.io/kamo.js/dist/kamo.min.js"></script>
+<title>kamo.js</title>
+</head>
+
+<body>
+
+  <h1>kamo.jsの練習、リアクティブプログラミングの理解</h1>
+
+  <div class="textpanel">
+    <p class="message">non</p>
+  </div>
+
+  <input type="text" id="input">
+  <ul id="candidates"></ul>
+
+  <script src="/js/wclick.kamo.js"></script>
+  <script src="/js/autocomplete.kamo.js"></script>
+
+  <article>
+    <p>mapで変換</p>
+    <p>filterで条件</p>
+    <p>scanで前の状態を利用できる</p>
+    <p>flatMapは別のストリームへ変換（mapはargsをreturnするがこれはstreamをreturnする）</p>
+    <p>trottleはintervalのような処理のときに一定間隔で行う</p>
+    <p>debounceはpublishされてから遅れて流れるストリーム</p>
+  </article>
+
+</body>
+
+</html>

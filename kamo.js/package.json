@@ -1,0 +1,19 @@
+{
+  "name": "kamo.js",
+  "version": "0.0.0",
+  "description": "practice kamo.js to study FRP.",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "script": {
+    "preinstall": "sudo npm install -g gulp browser-sync bower"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bonegollira/hack.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "*"
+  }
+}
